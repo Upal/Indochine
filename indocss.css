@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+}
+
+
+
+#header {
+    border: 1px dotted red;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+}
+
+#titre {
+    margin-left: 320px;
+    
+    
+}
+
+#titre h1 {
+    border: 1px dotted black;
+    font-family: Arial;
+    font-size: 450%;
+    margin-bottom: 0px;
+}
+
+
+#liens {
+    border: 1px dotted green;
+    margin-left: 320px;
+    padding: 0px;
+}
+
+#liens ul {
+    padding-left: 0px;
+}
+
+#liens li {
+    display: inline;
+    
+}
+
+#corps {
+    border: 1px dotted blue;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
