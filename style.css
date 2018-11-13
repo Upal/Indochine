@@ -1,0 +1,98 @@
+/* CSS variables --shadow : 0 1 px 5px rgba(104, 104, 104, 0,8) */
+
+html {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 30px 50px;
+  line-height: 1.8;
+}
+
+.bouton {
+  background-color: red;
+  color: white;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+}
+
+img {
+  max-width: 100%
+}
+
+.bigbox {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.main-nav ul {
+display: grid;
+grid-gap: 20px;
+padding: 0;
+list-style: none;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  display: block;
+  padding : 0.8rem;
+  text-align : center;
+  box-shadow: 0 3px 5px rgba(104, 104, 104, 0.8);
+}
+
+.main-nav a:hover {
+  background-color: white;
+  color: red;
+}
+
+/*  ctrl + 4 + maj slash */
+
+.top-container {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-areas:
+  'presentation presentation top-box-a'
+  'presentation presentation top-box-b'
+}
+
+.presentation {
+  grid-area: presentation;
+  border: 1px solid black;
+  min-height: 400px;
+  background: url(images/fond1.png);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  color: white;
+}
+
+.top-box {
+  text-align: center;
+    border: 1px solid black;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+.top-box-a {
+  grid-area: top-box-a;
+}
+
+.top-box-b {
+  grid-area: top-box-b;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  border: 1px solid black;
+}
+
+/* Video 30:00 https://www.youtube.com/watch?v=moBhzSC455o */
